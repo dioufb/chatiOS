@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-connectchatswift-dev-123132-authRole",
+            "UnauthRoleArn": "arn:aws:iam::098145436134:role/amplify-connectchatswift-dev-123132-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::098145436134:role/amplify-connectchatswift-dev-123132-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-connectchatswift-dev-123132-deployment",
+            "UnauthRoleName": "amplify-connectchatswift-dev-123132-unauthRole",
+            "StackName": "amplify-connectchatswift-dev-123132",
+            "StackId": "arn:aws:cloudformation:us-east-1:098145436134:stack/amplify-connectchatswift-dev-123132/f3e34eb0-7c11-11ea-b900-0e715b49d7c1",
+            "AmplifyAppId": "d3o483b2b41xk0"
+        },
+        "categories": {
+            "auth": {
+                "cognitoe74e02fc": {}
+            }
+        }
+    }
+}

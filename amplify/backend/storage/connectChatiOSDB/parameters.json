@@ -1,0 +1,5 @@
+{
+    "tableName": "connectChatiOSDB",
+    "partitionKeyName": "contactId",
+    "partitionKeyType": "S"
+}

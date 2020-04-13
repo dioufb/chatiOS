@@ -1,0 +1,48 @@
+{
+    "paths": [
+        {
+            "name": "/startChat",
+            "lambdaFunction": "startChatBackend",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "connectChatiOS",
+    "apiName": "connectChatiOS",
+    "functionArns": [
+        {
+            "lambdaFunction": "startChatBackend"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-connectchatswift-dev-123132-authRole",
+        "unAuthRoleName": "amplify-connectchatswift-dev-123132-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "startChatBackend",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

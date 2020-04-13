@@ -1,0 +1,91 @@
+PODS:
+  - Amplify (0.11.0)
+  - amplify-tools (0.2.0)
+  - AmplifyPlugins/AWSAPIPlugin (0.11.0):
+    - AppSyncRealTimeClient (~> 1.1.0)
+    - AWSPluginsCore (= 0.11.0)
+    - ReachabilitySwift (~> 5.0.0)
+  - AppSyncRealTimeClient (1.1.6):
+    - Starscream (= 3.0.6)
+  - AWSAPIGateway (2.13.1):
+    - AWSCore (= 2.13.1)
+  - AWSAuthCore (2.13.1):
+    - AWSCore (= 2.13.1)
+  - AWSAuthUI (2.13.1):
+    - AWSAuthCore (= 2.13.1)
+    - AWSCore (= 2.13.1)
+  - AWSCognitoIdentityProvider (2.13.1):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.13.1)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.13.1)
+  - AWSMobileClient (2.13.1):
+    - AWSAuthCore (= 2.13.1)
+    - AWSCognitoIdentityProvider (= 2.13.1)
+  - AWSPluginsCore (0.11.0):
+    - Amplify (= 0.11.0)
+    - AWSMobileClient (~> 2.13.0)
+  - AWSUserPoolsSignIn (2.13.1):
+    - AWSAuthCore (= 2.13.1)
+    - AWSCognitoIdentityProvider (= 2.13.1)
+  - InputBarAccessoryView (4.3.2):
+    - InputBarAccessoryView/Core (= 4.3.2)
+  - InputBarAccessoryView/Core (4.3.2)
+  - MessageKit (3.1.0):
+    - InputBarAccessoryView (~> 4.3.0)
+  - ReachabilitySwift (5.0.0)
+  - Starscream (3.0.6)
+
+DEPENDENCIES:
+  - Amplify
+  - amplify-tools
+  - AmplifyPlugins/AWSAPIPlugin
+  - AWSAPIGateway
+  - AWSAuthUI (~> 2.13.0)
+  - AWSMobileClient (~> 2.13.0)
+  - AWSPluginsCore
+  - AWSUserPoolsSignIn (~> 2.13.0)
+  - MessageKit
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - amplify-tools
+    - AmplifyPlugins
+    - AppSyncRealTimeClient
+    - AWSAPIGateway
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+    - AWSUserPoolsSignIn
+    - InputBarAccessoryView
+    - MessageKit
+    - ReachabilitySwift
+    - Starscream
+
+SPEC CHECKSUMS:
+  Amplify: 8df7d5a71945c57480c1bc3b353a936e908e4dc7
+  amplify-tools: 2304ea0782b61fdb15c7a1e6bf5e0410b02b4f46
+  AmplifyPlugins: 00520be72202f55dbb2931bcfe0b05e104dd8334
+  AppSyncRealTimeClient: 4a2ccdc1722750a1f4d76e216f9bfb1cf12f10de
+  AWSAPIGateway: 71a66166c4f417cc643ddb6c83bb7011efb18fb8
+  AWSAuthCore: c15735eb14cccf2a26e371e3a6a841d613d411ef
+  AWSAuthUI: d61165c5dfb9ad342a51991253c80f417a82fb9e
+  AWSCognitoIdentityProvider: 78f240befbd2e47a8e644946a9dd19812b0e5044
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: ec394695d054fa4136b20ccd22d8901faea5de04
+  AWSMobileClient: 8aede2dc1b0760709a2c02465e2b0c286b7cd00b
+  AWSPluginsCore: 139f4e028dbe9b0cadb5540440eb675d49863e53
+  AWSUserPoolsSignIn: 136d2dcd545d46246ec2f1308d728824f131e629
+  InputBarAccessoryView: 7985d418040a05fe894bd4b8328dd43ab35517c3
+  MessageKit: 3beb578737a5aa2bba25cc27c7b6d6faa09af5a7
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
+
+PODFILE CHECKSUM: c02c0c7c1efabf843d4b770b8a535c7eee0ba9f3
+
+COCOAPODS: 1.8.4
